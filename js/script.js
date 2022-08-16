@@ -14,7 +14,7 @@ footer.innerHTML = doi;
 footer.href = "https://www.instagram.com/dinurmaulanaa_/";
 
 function time() {
-  var d = new Date();
+  var d = new hours();
   var n = d.getHours();
   console.log(n);
   if (n >= 24 && n <= 10) {
