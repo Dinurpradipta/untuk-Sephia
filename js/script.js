@@ -60,7 +60,7 @@ function selesai() {
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
     title: 'Halo Sephia!',
-    html: `Selamat Pagi, Kamu udah Sarapan?`,
+    html: `Selamat Malam, Kamu udah Makan?`,
     timer: 2500,
     timerProgressBar: true,
     showConfirmButton: false,
